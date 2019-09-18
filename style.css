@@ -1,0 +1,139 @@
+.nav-link {
+    font-size:20px;
+    margin:10px;
+}
+.jumbotron {
+    background-image:url("images/head-house2.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:650px;
+}
+.jumbotron2 {
+    background-image:url("images/head-house3.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:500px;
+}
+.jumbotron3 {
+    background-image:url("images/head-house4.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:500px;
+}
+.container-fluid {
+    margin-top:30px;
+    margin-left:30px;
+}
+.lead {
+    padding-top:50px;
+    font-weight:bold;
+    font-size:28px;
+}
+.btn2 {
+    margin-top:20px;
+    margin-left:8px;
+    padding-bottom:5px;
+    text-align:center;
+    width:110px;
+    border-radius:45%;
+}
+.btn3 {
+    margin-left:8px;
+    padding-bottom:5px;
+    text-align:center;
+    width:100px;
+    border-radius:45%;
+}
+.team {
+    text-align:center;
+    font-size:50px;
+    color:white;
+    padding-top:100px;
+    text-shadow:5px 5px black;
+}
+.contact {
+    text-align:center;
+    font-size:120px;
+    color:white;
+    padding-top:150px;
+    text-shadow:5px 5px grey;
+}
+.lead2 {
+    color:white;
+    text-align:center;
+    font-family:Chilanka, cursive;
+    font-size:28px;
+    text-shadow:5px 5px black;
+}
+.container {
+    margin:30px auto;
+    /* border:red 1px solid; */
+    text-align:center;
+}
+.address {
+    width:300px;
+    margin-right:10px;
+}
+.btn {
+    width:100px;
+    height:30px;
+    margin-bottom:5px;
+    text-align:center;
+    padding:0 5px 20px 5px;
+}
+.card {
+    margin:10px auto;
+    border:1px solid grey;
+    font-size:16px;
+    text-align:center;
+    width:300px;
+    padding:20px 15px 20px 15px;
+    height:250px;
+    box-shadow: 2px 2px #888888
+}
+.images {
+    width:48%;
+    display:inline-block;
+}
+.words {
+    width:48%;
+    display:inline-block;
+    text-align:center;
+}
+@media (max-width:770px) {
+    .words {
+        margin-top:20px;
+        padding-top:20px;
+    }
+}
+.container1 {
+    clear:both;
+    padding-top:10px;
+    padding-bottom:5px;
+    text-align:center;
+    width:100%;
+    background-color:#292727;
+    color:white;
+}
+.container2 {
+    margin:50px;
+    padding:0;
+    border:1px red solid;
+}
+.office {
+    margin:50px;
+    font-size:24px;
+    text-align:center;
+}
+@media (max-width:770px) {
+    iframe {
+        margin-top:10px;
+        margin-left:0;
+    }
+}
+.office p {
+    color:blueviolet;
+}
