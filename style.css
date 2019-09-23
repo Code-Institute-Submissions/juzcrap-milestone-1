@@ -1,6 +1,17 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .nav-link {
     font-size:20px;
-    margin:10px;
+    margin:3px 10px;
+    color:blue;
+}
+.navbar {
+    margin:0;
+}
+.navbar-brand img:hover {
+    background-color:white;
 }
 .jumbotron {
     background-image:url("images/head-house2.jpg");
@@ -8,6 +19,7 @@
     background-position:center;
     background-repeat:no-repeat;
     height:650px;
+    margin:0;
 }
 .jumbotron2 {
     background-image:url("images/head-house3.jpg");
@@ -15,6 +27,7 @@
     background-position:center;
     background-repeat:no-repeat;
     height:500px;
+    width:100%
 }
 .jumbotron3 {
     background-image:url("images/head-house4.jpg");
@@ -22,13 +35,32 @@
     background-position:center;
     background-repeat:no-repeat;
     height:500px;
+    width:100%;
 }
 .container-fluid {
-    margin-top:30px;
-    margin-left:30px;
+    margin-top:20px;
+    margin-left:20px;
+}
+@media (max-width:770px) {
+    .container-fluid {
+        font-size:60px;
+        padding-right:10px;
+    }
+}
+.container-fluid1 {
+    padding-top:100px;
+    text-align:center;
+}
+@media (max-width:770px) {
+    .container-fluid1 {
+        font-size:40px;
+        text-align:center;
+        padding-top:50px;
+    }
 }
 .lead {
-    padding-top:50px;
+    padding-top:40px;
+    padding-bottom:10px;
     font-weight:bold;
     font-size:28px;
 }
@@ -45,7 +77,7 @@
     padding-bottom:5px;
     text-align:center;
     width:100px;
-    border-radius:45%;
+    border-radius:5%;
 }
 .team {
     text-align:center;
@@ -59,6 +91,7 @@
     font-size:120px;
     color:white;
     padding-top:150px;
+    padding-right:60px;
     text-shadow:5px 5px grey;
 }
 .lead2 {
@@ -72,6 +105,26 @@
     margin:30px auto;
     /* border:red 1px solid; */
     text-align:center;
+}
+.container12 {
+    margin:20px auto;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:center;
+}
+.card2 {
+    margin:5px;
+}
+@media (max-width:770px) {
+    .card2 {
+        margin-top:10px;
+    }
+}
+@media (max-width:770px) {
+    .card2 img {
+        height:250px;
+        width:250px;
+    }
 }
 .address {
     width:300px;
@@ -109,6 +162,23 @@
         padding-top:20px;
     }
 }
+.container11 {
+    clear:both;
+    padding-top:10px;
+    padding-bottom:5px;
+    text-align:center;
+    width:100%;
+    background-color:#292727;
+    color:white;
+}
+.nav-item a:hover {
+    border-bottom:2px solid white;
+}
+@media (max-width:770px) {
+    .nav-item a:hover {
+        border-bottom:none;
+    }
+}
 .container1 {
     clear:both;
     padding-top:10px;
@@ -121,19 +191,79 @@
 .container2 {
     margin:50px;
     padding:0;
-    border:1px red solid;
-}
-.office {
-    margin:50px;
-    font-size:24px;
-    text-align:center;
 }
 @media (max-width:770px) {
-    iframe {
-        margin-top:10px;
-        margin-left:0;
+    .carousel-inner-img {
+        display:none;
+    }
+}
+@media (max-width:770px) {
+    .words {
+        width:100%;
+    }
+}
+.container13 {
+    margin:20px;
+    height:500px;
+    text-align:center;
+}
+.office {
+    margin:50px 0 0 10px;
+    font-size:40px;
+    text-align:center;
+    display:inline-block;
+    width:50%;
+}
+@media (max-width:992px) {
+    .office {
+        font-size:36px;
+        text-align:center;
+    }
+}
+@media (max-width:770px) {
+    .office {
+        width:100%;
+        text-align:center;
+    }
+}
+@media (max-width:770px) {
+    .contact {
+        font-size:60px;
+        text-align:center;
+        padding-top:200px;
+        padding-right:60px;
+    }
+}
+.iframe {
+    display:inline-block;
+    margin-right:75px;
+    margin-bottom:50px;
+    margin-top:20px;
+}
+@media (max-width:992px) {
+    .iframe iframe {
+        height:450px; 
+        width:400px; 
+    }
+}
+@media (max-width:800px) {
+    .iframe iframe {
+        height:450px; 
+        width:300px; 
+    }
+}
+@media (max-width:770px) {
+    .iframe {
+        display:none;
     }
 }
 .office p {
     color:blueviolet;
+}
+.office a {
+    color:blueviolet;
+}
+.office a:hover {
+    color:blueviolet;
+    text-decoration:none;
 }
