@@ -120,7 +120,7 @@ html, body {
         margin-top:10px;
     }
 }
-@media (max-width:770px) {
+@media (max-width:575px) {
     .card2 img {
         height:250px;
         width:250px;
@@ -181,8 +181,8 @@ html, body {
 }
 .container1 {
     clear:both;
-    padding-top:10px;
-    padding-bottom:5px;
+    padding-top:30px;
+    padding-bottom:45px;
     text-align:center;
     width:100%;
     background-color:#292727;
@@ -208,20 +208,20 @@ html, body {
     text-align:center;
 }
 .office {
-    margin:50px 0 0 10px;
-    font-size:40px;
+    margin:100px 0 0 10px;
+    font-size:36px;
     text-align:center;
     display:inline-block;
-    width:50%;
 }
 @media (max-width:992px) {
     .office {
-        font-size:36px;
+        font-size:28px;
         text-align:center;
     }
 }
-@media (max-width:770px) {
+@media (min-width:770px) {
     .office {
+        margin:100px 0 0;
         width:100%;
         text-align:center;
     }
