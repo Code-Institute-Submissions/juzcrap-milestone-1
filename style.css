@@ -147,6 +147,18 @@ html, body {
     height:250px;
     box-shadow: 2px 2px #888888
 }
+@media (max-width:770px) {
+    .card {
+        margin-top:10px;
+        width:200px;
+    }
+}
+@media (max-width:575px) {
+    .card {
+        height:250px;
+        width:250px;
+    }
+}
 .images {
     width:48%;
     display:inline-block;
